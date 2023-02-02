@@ -1,5 +1,5 @@
 import React from 'react'
-import image0 from '/Image0.svg'
+import image0 from '/bg-image.svg'
 import image1 from '/Image1.svg'
 import image2 from '/Image2.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
