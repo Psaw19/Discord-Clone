@@ -25,7 +25,7 @@ const Navbar = () => {
                     {data}
                 </ul>
                 <div className='flex items-center lg:justify-end w-[120px] justify-between'>
-                    <button className='text-sm flex justify-center items-center bg-white px-4 py-[7px] rounded-3xl font-normal'>
+                    <button className='text-sm flex justify-center items-center bg-white px-4 py-[7px] rounded-3xl font-normal transition-all duration-200  hover:drop-shadow-md hover:shadow-lg'>
                         <a>Login</a>
 
                     </button>

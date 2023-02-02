@@ -51,8 +51,10 @@ const Footer = () => {
 
                 <div className='h-[1px] w-full bg-[#404EED]' />
                 <div className='flex justify-between pt-10'>
-                    <img src='/logo.svg' className=' w-32' />
-                    <button className='bg-[#404EED] rounded-full py-[7px] px-4'>Sign Up</button>
+                    <a>
+                        <img src='/logo.svg' className=' w-32' />
+                    </a>
+                    <button className='bg-[#404EED] transition-all duration-200 rounded-full py-[7px] px-4 hover:bg-[#5460ea] hover:drop-shadow-lg hover:shadow-lg'>Sign Up</button>
                 </div>
 
 

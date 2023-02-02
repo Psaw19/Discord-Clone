@@ -18,11 +18,13 @@ const Header = () => {
                     <p className='text-white sm:text-base sm:leading-7 md:text-[2vw] lg:text-xl lg:text-center z-[100]'>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
 
                     <div className='flex lg:justify-center gap-5 z-[100] flex-wrap'>
+
+
                         <button
-                            className=' font-ggSans bg-white rounded-full py-4 px-8 font-normal text-base sm:text-xl hover:text-[#404EED]'>
+                            className=' font-ggSans bg-white rounded-full py-4 px-8 font-normal text-base sm:text-xl hover:text-[#404EED]  hover:drop-shadow-lg hover:shadow-lg transition-all duration-200'>
                             <FontAwesomeIcon icon={faDownload} className='mr-3' />
                             Download for Windows</button>
-                        <button className='font-ggSans bg-black text-white rounded-full py-4 px-8 font-medium text-base sm:text-xl'>Open Discord in your browser</button>
+                        <button className='font-ggSans bg-black text-white rounded-full py-4 px-8 font-medium text-base sm:text-xl hover:bg-[#23272a] hover:drop-shadow-lg hover:shadow-lg transition-all duration-200'>Open Discord in your browser</button>
                     </div>
 
                 </div>
@@ -30,7 +32,6 @@ const Header = () => {
 
             </div>
 
-            <div className=' hidden md:block w-full h-16 -z-50 ' />
             <div className='h-full w-full absolute bottom-0'>
                 <div className='h-full w-full max-w-[1260px] mx-auto relative'>
 

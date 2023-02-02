@@ -31,7 +31,7 @@ const Cta = () => {
                         Ready to start your journey?
                     </h1>
                 </div>
-                <button className='flex items-center text-white rounded-full gap-5 text-xl bg-[#404EED] py-4 px-8 hover:opacity-70 hover:drop-shadow-xl hover:shadow-2xl transition-all duration-200'>
+                <button className='flex items-center text-white rounded-full gap-5 text-xl bg-[#404EED] py-4 px-8 hover:opacity-80 hover:drop-shadow-xl hover:shadow-xl transition-all duration-200'>
                     <FontAwesomeIcon icon={faDownload} />
                     Download for Windows
 
