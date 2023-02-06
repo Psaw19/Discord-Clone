@@ -4,13 +4,13 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 const Cta = () => {
     return (
-        <section className='W-full font-notoSans bg-[#f6f6f6] pb-20'>
+        <section className='W-full font-ggSans bg-[#f6f6f6] pb-20'>
 
             <div className='mx-auto w-full max-w-[1260px] flex flex-col items-center py-14 px-6 md:py-20 md:px-10 lg:pt-[120px] lg:pb-20 gap-6
             lg:gap-4'>
 
                 <div className=' lg:w-10/12 flex gap-6 flex-col lg:items-center'>
-                    <h1 className=' font-ginto text-xl sm:text-[4vw] sm:leading-[5vw] md:text-center lg:text-[40px]'>
+                    <h1 className=' font-gintoNord font-bold text-xl sm:text-[4vw] sm:leading-[5vw] md:text-center lg:text-[40px]'>
                         RELIABLE TECH FOR STAYING CLOSE
 
                     </h1>

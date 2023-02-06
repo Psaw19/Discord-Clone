@@ -21,14 +21,14 @@ const Footer = () => {
     })
 
     return (
-        <div className='w-full bg-[#23272a] text-white font-notoSans pt-20 pb-16'>
+        <div className='w-full bg-[#23272a] text-white font-ggSans pt-20 pb-16'>
 
             <div className='max-w-[1260px] px-6 md:px-10 mx-auto w-full'>
 
                 <div className='flex gap-14 flex-col md:flex-row md:justify-between'>
 
                     <div className='flex flex-col gap-6 w-full md:w-[37.5%] lg:w-3/12'>
-                        <h1 className=' font-ginto text-[#404EED] text-4xl'>IMAGINE A PLACE</h1>
+                        <h1 className=' font-gintoNord font-bold text-[#404EED] text-4xl'>IMAGINE A PLACE</h1>
                         <div className='flex gap-2 items-center'>
                             <img src='/flag.png' className='w-6' />
                             <h4 className=' text-sm'>English, USA</h4>

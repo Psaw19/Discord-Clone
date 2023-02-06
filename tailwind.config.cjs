@@ -3,9 +3,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        notoSans: ['Noto Sans', 'sans-serif'],
-        ginto: ['Sigmar One', 'cursive']
-      }
+        Whitney: ["Whitney"],
+        Ginto: ["Ginto"],
+        ggSans: ["ggSans"],
+        gintoNord: ["gintoNord"],
+      },
     },
   },
   plugins: [],
